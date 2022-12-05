@@ -1,15 +1,2 @@
 # AdventOfCode2022
-Advent of code solutions for 2022
-           ,....,
-        ,;;:o;;;o;;,
-      ,;;o;'''''';;;;,
-     ,;:;;        ;;o;,
-     ;o;;          ;;;;
-     ;;o;          ;;o;
-     ';;;,  _  _  ,;;;'
-      ';o;;/_\/_\;;o;'
-  jgs   ';;\_\/_/;;'
-           '//\\'
-           //  \\
-          |/    \|
- 
+Advent of code solutions for 2022 (using Python)
