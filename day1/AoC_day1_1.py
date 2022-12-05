@@ -1,4 +1,4 @@
-foodList = open('inputs/AoC_day1_task1_input.txt', 'r')
+foodList = open('../inputs/AoC_day1_task1_input.txt', 'r')
 lines = foodList.readlines()
 
 bestElf = None
