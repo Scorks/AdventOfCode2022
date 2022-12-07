@@ -1,0 +1,35 @@
+data = ''
+
+with open('../inputs/AoC_input_6.txt', 'r') as file:
+    data = file.read().replace('\n', '')
+
+index_w = 0
+index_x = 1
+index_y = 2
+index_z = 3
+
+index = None
+
+flag = True
+while(flag == True):
+    letterSet = set()
+    letterSet.add(data[index_w])
+    letterSet.add(data[index_x])
+    letterSet.add(data[index_y])
+    letterSet.add(data[index_z])
+    if (len(letterSet) == 4):
+        flag = False
+        index = index_z
+        print(data[index_w], ' ', data[index_x], ' ', data[index_y], ' ', data[index_z])
+    elif(len(data) == index_z):
+        flag = False
+        index = None
+    else:
+        index_w += 1
+        index_x += 1
+        index_y += 1
+        index_z += 1
+
+print(index+1)
+
+    
